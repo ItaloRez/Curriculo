@@ -42,20 +42,20 @@ export default function Home() {
     
     <div onScroll={reveal}>
 
-      <svg class='top' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#7fe4ef" fill-opacity="1"
+      <svg className='top' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#7fe4ef" fillOpacity="1"
           d="M0,224L26.7,234.7C53.3,245,107,267,160,282.7C213.3,299,267,309,320,293.3C373.3,277,427,235,480,229.3C533.3,224,587,256,640,240C693.3,224,747,160,800,133.3C853.3,107,907,117,960,138.7C1013.3,160,1067,192,1120,186.7C1173.3,181,1227,139,1280,128C1333.3,117,1387,139,1413,149.3L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
         </path>
       </svg>
 
-      <div class="container">
-        <div class="row mb gap">
-          <div class="col-2">
-            <img class="shadow" src="fotin.png" />
+      <div className="container">
+        <div className="row mb gap">
+          <div className="col-2">
+            <img className="shadow" src="fotin.png" />
           </div>
-          <div class="col">
-            <div class="name shadow">
-              <div class="title">
+          <div className="col">
+            <div className="name shadow">
+              <div className="title">
                 <h1>Ítalo de Rezende</h1>
                 <h2>Programador Front-end</h2>
               </div>
@@ -72,12 +72,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div class="row mb gap reveal fade-right">
-          <div class="col-5">
-            <div class="shadow education">
+        <div className="row mb gap reveal fade-right">
+          <div className="col-5">
+            <div className="shadow education">
               <h3>Educação</h3>
-              <div class="row gap-1">
-                <div class="border-rounded"></div>
+              <div className="row gap-1">
+                <div className="border-rounded"></div>
                 <ul>
                   <li>
                     <h4>Instituto Federal do Sul de Minas - Técnico em informática</h4>
@@ -95,11 +95,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="col-5">
-            <div class="shadow education">
+          <div className="col-5">
+            <div className="shadow education">
               <h3>Cursos</h3>
-              <div class="row gap-1">
-                <div class="border-rounded"></div>
+              <div className="row gap-1">
+                <div className="border-rounded"></div>
                 <ul>
                   <li>
                     <h4>React JS + Firebase + Bootstrap: projeto passo á passo</h4>
@@ -119,77 +119,77 @@ export default function Home() {
           </div>
 
         </div>
-        <div class="row">
+        <div className="row">
           <a id="btn-scroll" ref={btnScroll} href="#section2">
             <img src="arrow.svg" />
           </a>
         </div>
 
-        <section id="section2" class="reveal fade-left">
-          <div class="row mb gap">
-            <div class="col-5">
-              <div class="shadow education">
+        <section id="section2" className="reveal fade-left">
+          <div className="row mb gap">
+            <div className="col-5">
+              <div className="shadow education">
                 <h3>Skills de programação</h3>
-                <div class="row gap-2 p">
-                  <div class="col">
-                    <div class="skills">
-                      <div class="skill">
+                <div className="row gap-2 p">
+                  <div className="col">
+                    <div className="skills">
+                      <div className="skill">
                         <div></div>
                         <text>HTML 5</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#a5bdf5" }}></div>
                         <text>CSS</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#92eec0" }}></div>
                         <text>JavaScript</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#fecaa1" }}></div>
                         <text>React</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#8fdfb5" }}></div>
                         <text>React Native</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#96cbec" }}></div>
                         <text>Figma</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#d2d8e0" }}></div>
                         <text>Node</text>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="skills">
-                      <div class="skill">
+                  <div className="col">
+                    <div className="skills">
+                      <div className="skill">
                         <div style={{ backgroundColor: "aqua" }}></div>
                         <text>Angular</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#fdadb2" }}></div>
                         <text>MySQL</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#8ee8d0" }}></div>
                         <text>Firebase</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#f48f93" }}></div>
                         <text>Supabase</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#f6a5b3" }}></div>
                         <text>Git</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#95e5dc" }}></div>
                         <text>Next</text>
                       </div>
-                      <div class="skill">
+                      <div className="skill">
                         <div style={{ backgroundColor: "#fcb98d" }}></div>
                         <text>Bootstrap</text>
                       </div>
@@ -199,27 +199,27 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div class="col-5">
-              <div class="shadow education h-100">
+            <div className="col-5">
+              <div className="shadow education h-100">
                 <h3>Hobbies</h3>
-                <div class="hobbies">
-                  <div class="row gap-30 h-50">
-                    <div class="hobbie shadow">
+                <div className="hobbies">
+                  <div className="row gap-30 h-50">
+                    <div className="hobbie shadow">
                       <img src="game.svg" />
                       <p>Games</p>
                     </div>
-                    <div class="hobbie shadow">
+                    <div className="hobbie shadow">
                       <img src="series.svg" />
                       <p>Series</p>
                     </div>
                   </div>
 
-                  <div class="row gap-30 h-50">
-                    <div class="hobbie shadow">
+                  <div className="row gap-30 h-50">
+                    <div className="hobbie shadow">
                       <img src="guitar.svg" />
                       <p>Violão</p>
                     </div>
-                    <div class="hobbie shadow">
+                    <div className="hobbie shadow">
                       <img src="soccer.svg" />
                       <p>Futebol</p>
                     </div>
@@ -232,9 +232,9 @@ export default function Home() {
         </section>
 
 
-        <div class="row ">
-          <div class="col shadow">
-            <div class="footer">
+        <div className="row ">
+          <div className="col shadow">
+            <div className="footer">
               <div>
                 <img src="email.svg" />
                 <a href="mailto:italo.rezende@gec.inatel.br">
@@ -244,28 +244,28 @@ export default function Home() {
               </div>
               <div>
                 <img src="github.svg" />
-                <a href="https://github.com/ItaloRez" target="_blank">
+                <a href="https://github.com/ItaloRez" target="_blank" rel="noreferrer">
                   https://github.com/ItaloRez
                 </a>
               </div>
               <div>
                 <img src="whatsapp.svg" />
-                <a href="https://api.whatsapp.com/send?phone=5535998650649&text=Olá!!" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=5535998650649&text=Olá!!" target="_blank" rel="noreferrer">
                   (35)99865-0649
                 </a>
               </div>
               <div>
                 <img src="linkedin.svg" />
-                <a href="https://www.linkedin.com/in/%C3%ADtalo-rezende-60a5571b2/" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/%C3%ADtalo-rezende-60a5571b2/" target="_blank" rel="noreferrer">LinkedIn</a>
               </div>
             </div>
-          </div>
+          </div> sadas
         </div>
 
 
       </div>
-      <svg class="bot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#7fe4ef" fill-opacity="1"
+      <svg className="bot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#7fe4ef" fillOpacity="1"
           d="M0,96L26.7,122.7C53.3,149,107,203,160,202.7C213.3,203,267,149,320,138.7C373.3,128,427,160,480,176C533.3,192,587,192,640,181.3C693.3,171,747,149,800,165.3C853.3,181,907,235,960,240C1013.3,245,1067,203,1120,192C1173.3,181,1227,203,1280,218.7C1333.3,235,1387,245,1413,250.7L1440,256L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
         </path>
       </svg>
