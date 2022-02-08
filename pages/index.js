@@ -259,7 +259,7 @@ export default function Home() {
                 <a href="https://www.linkedin.com/in/%C3%ADtalo-rezende-60a5571b2/" target="_blank" rel="noreferrer">LinkedIn</a>
               </div>
             </div>
-          </div> sadas
+          </div>
         </div>
 
 
