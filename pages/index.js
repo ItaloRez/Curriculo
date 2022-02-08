@@ -49,9 +49,9 @@ export default function Home() {
       </svg>
 
       <div className="container">
-        <div className="row mb gap">
+        <div className="row mb gap small-row">
           <div className="col-2">
-            <img className="shadow" src="fotin.png" />
+            <img className="shadow avatar" src="fotin.png" />
           </div>
           <div className="col">
             <div className="name shadow">
@@ -65,14 +65,13 @@ export default function Home() {
                 comecei a me interessar bastante pela parte de desenvolvimento web. Tenho
                 afinidade com a bibliteca React, já tendo montando alguns projetos e
                 concluido um curso na mesma. Os projetos estão no meu github, caso queiram
-                visualizá-los
-                <a href="https://github.com/ItaloRez">https://github.com/ItaloRez</a>.
+                visualizá-los <a href="https://github.com/ItaloRez">https://github.com/ItaloRez</a>.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="row mb gap reveal fade-right">
+        <div className="row mb gap reveal fade-right small-row">
           <div className="col-5">
             <div className="shadow education">
               <h3>Educação</h3>
@@ -117,16 +116,15 @@ export default function Home() {
               </div>
             </div>
           </div>
-
         </div>
-        <div className="row">
+        <div className="row scroll-btn">
           <a id="btn-scroll" ref={btnScroll} href="#section2">
             <img src="arrow.svg" />
           </a>
         </div>
 
         <section id="section2" className="reveal fade-left">
-          <div className="row mb gap">
+          <div className="row mb gap small-row">
             <div className="col-5">
               <div className="shadow education">
                 <h3>Skills de programação</h3>
@@ -235,29 +233,32 @@ export default function Home() {
         <div className="row ">
           <div className="col shadow">
             <div className="footer">
-              <div>
-                <img src="email.svg" />
-                <a href="mailto:italo.rezende@gec.inatel.br">
-                  italo.rezende@gec.inatel.br
-                </a>
-
-              </div>
-              <div>
-                <img src="github.svg" />
-                <a href="https://github.com/ItaloRez" target="_blank" rel="noreferrer">
-                  https://github.com/ItaloRez
-                </a>
-              </div>
-              <div>
-                <img src="whatsapp.svg" />
-                <a href="https://api.whatsapp.com/send?phone=5535998650649&text=Olá!!" target="_blank" rel="noreferrer">
-                  (35)99865-0649
-                </a>
-              </div>
-              <div>
-                <img src="linkedin.svg" />
-                <a href="https://www.linkedin.com/in/%C3%ADtalo-rezende-60a5571b2/" target="_blank" rel="noreferrer">LinkedIn</a>
-              </div>
+                <div>
+                  <a href="mailto:italo.rezende@gec.inatel.br">
+                    <img src="email.svg" />
+                  </a>
+                  <a href="mailto:italo.rezende@gec.inatel.br" className='text-icon'>
+                    italo.rezende@gec.inatel.br
+                  </a>
+                </div>
+                <div>
+                  <img src="github.svg" />
+                  <a href="https://github.com/ItaloRez" target="_blank" rel="noreferrer" className='text-icon'>
+                    https://github.com/ItaloRez
+                  </a>
+                </div>
+                <div>
+                  <img src="whatsapp.svg" />
+                  <a href="https://api.whatsapp.com/send?phone=5535998650649&text=Olá!!" target="_blank" rel="noreferrer" className='text-icon'>
+                    (35)99865-0649
+                  </a>
+                </div>
+                <div>
+                  <img src="linkedin.svg" />
+                  <a href="https://www.linkedin.com/in/%C3%ADtalo-rezende-60a5571b2/" target="_blank" rel="noreferrer" className='text-icon'>
+                    LinkedIn
+                  </a>
+                </div>
             </div>
           </div>
         </div>

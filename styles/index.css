@@ -288,3 +288,34 @@ a{
 html {
     scroll-behavior: smooth;
 }
+
+
+
+@media only screen and (max-device-width: 1000px) {
+    .text-icon{
+        display: none;
+    }
+    .name p{
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .small-row{
+        flex-direction: column;
+        row-gap: 2em;
+        align-items: center;
+    }
+    .name{
+        padding: 16px;
+    }
+    .col-2{
+        width: 35%;
+    }
+    .col-5{
+        width: 100%;
+    }
+    .scroll-btn{
+        display: none;
+    }
+    /* .menu { width:100%; } */
+}
