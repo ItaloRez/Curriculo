@@ -242,19 +242,23 @@ export default function Home() {
                   </a>
                 </div>
                 <div>
-                  <img src="github.svg" />
+                  <a href="https://github.com/ItaloRez" target="_blank" rel="noreferrer" >
+                    <img src="github.svg" />
+                  </a>
                   <a href="https://github.com/ItaloRez" target="_blank" rel="noreferrer" className='text-icon'>
                     https://github.com/ItaloRez
                   </a>
                 </div>
                 <div>
-                  <img src="whatsapp.svg" />
+                  <a href="https://api.whatsapp.com/send?phone=5535998650649&text=Olá!!" target="_blank" rel="noreferrer" >
+                  <img src="whatsapp.svg" /></a>
                   <a href="https://api.whatsapp.com/send?phone=5535998650649&text=Olá!!" target="_blank" rel="noreferrer" className='text-icon'>
                     (35)99865-0649
                   </a>
                 </div>
                 <div>
-                  <img src="linkedin.svg" />
+                  <a href="https://www.linkedin.com/in/%C3%ADtalo-rezende-60a5571b2/" target="_blank" rel="noreferrer" >
+                  <img src="linkedin.svg" /></a>
                   <a href="https://www.linkedin.com/in/%C3%ADtalo-rezende-60a5571b2/" target="_blank" rel="noreferrer" className='text-icon'>
                     LinkedIn
                   </a>
